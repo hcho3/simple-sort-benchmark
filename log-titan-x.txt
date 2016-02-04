@@ -1,0 +1,80 @@
+Loading 1474m (1474000000) integers...
+Parallel sort on GPU: 729.68 ms
+Parallel sort on CPU: 18825.52 ms
+
+SPEED-UP ON GPU = 25.80
+  THROUGHPUT ON GPU = 7.71 MB/s
+  THROUGHPUT ON CPU = 0.30 MB/s
+
+Loading 737m (737000000) integers...
+Parallel sort on GPU: 349.22 ms
+Parallel sort on CPU: 9297.00 ms
+
+SPEED-UP ON GPU = 26.62
+  THROUGHPUT ON GPU = 8.05 MB/s
+  THROUGHPUT ON CPU = 0.30 MB/s
+
+Loading 368m (368000000) integers...
+Parallel sort on GPU: 174.32 ms
+Parallel sort on CPU: 4654.61 ms
+
+SPEED-UP ON GPU = 26.70
+  THROUGHPUT ON GPU = 8.05 MB/s
+  THROUGHPUT ON CPU = 0.30 MB/s
+
+Loading 184m (184000000) integers...
+Parallel sort on GPU: 87.88 ms
+Parallel sort on CPU: 2417.56 ms
+
+SPEED-UP ON GPU = 27.51
+  THROUGHPUT ON GPU = 7.99 MB/s
+  THROUGHPUT ON CPU = 0.29 MB/s
+
+Loading 92m (92000000) integers...
+Parallel sort on GPU: 44.41 ms
+Parallel sort on CPU: 1199.41 ms
+
+SPEED-UP ON GPU = 27.01
+  THROUGHPUT ON GPU = 7.90 MB/s
+  THROUGHPUT ON CPU = 0.29 MB/s
+
+Loading 46m (46000000) integers...
+Parallel sort on GPU: 22.43 ms
+Parallel sort on CPU: 575.53 ms
+
+SPEED-UP ON GPU = 25.66
+  THROUGHPUT ON GPU = 7.82 MB/s
+  THROUGHPUT ON CPU = 0.30 MB/s
+
+Loading 23m (23000000) integers...
+Parallel sort on GPU: 11.52 ms
+Parallel sort on CPU: 318.59 ms
+
+SPEED-UP ON GPU = 27.66
+  THROUGHPUT ON GPU = 7.62 MB/s
+  THROUGHPUT ON CPU = 0.28 MB/s
+
+Loading 11m (11000000) integers...
+Parallel sort on GPU: 5.72 ms
+Parallel sort on CPU: 156.95 ms
+
+SPEED-UP ON GPU = 27.44
+  THROUGHPUT ON GPU = 7.34 MB/s
+  THROUGHPUT ON CPU = 0.27 MB/s
+
+Loading 5m (5000000) integers...
+Parallel sort on GPU: 2.86 ms
+Parallel sort on CPU: 85.87 ms
+
+SPEED-UP ON GPU = 29.97
+  THROUGHPUT ON GPU = 6.66 MB/s
+  THROUGHPUT ON CPU = 0.22 MB/s
+
+Loading 2m (2000000) integers...
+Parallel sort on GPU: 1.44 ms
+Parallel sort on CPU: 41.37 ms
+
+SPEED-UP ON GPU = 28.79
+  THROUGHPUT ON GPU = 5.31 MB/s
+  THROUGHPUT ON CPU = 0.18 MB/s
+

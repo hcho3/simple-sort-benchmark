@@ -1,0 +1,68 @@
+Amazon EC2 g2.2xlarge
+CPU: Intel(R) Xeon(R) CPU E5-2670 @ 2.60GHz, 8 cores, 15 GB
+GPU: GRID K520, 1536 CUDA cores, 4 GB
+
+Loading 428m (428000000) integers...
+Parallel sort on GPU: 534.56 ms
+Parallel sort on CPU: 8471.21 ms
+
+SPEED-UP ON GPU = 15.85
+  THROUGHPUT ON GPU = 3.05 MB/s
+  THROUGHPUT ON CPU = 0.19 MB/s
+
+Loading 214m (214000000) integers...
+Parallel sort on GPU: 265.49 ms
+Parallel sort on CPU: 4098.25 ms
+
+SPEED-UP ON GPU = 15.44
+  THROUGHPUT ON GPU = 3.07 MB/s
+  THROUGHPUT ON CPU = 0.20 MB/s
+
+Loading 107m (107000000) integers...
+Parallel sort on GPU: 132.35 ms
+Parallel sort on CPU: 1875.17 ms
+
+SPEED-UP ON GPU = 14.17
+  THROUGHPUT ON GPU = 3.08 MB/s
+  THROUGHPUT ON CPU = 0.22 MB/s
+
+Loading 53m (53000000) integers...
+Parallel sort on GPU: 65.73 ms
+Parallel sort on CPU: 951.53 ms
+
+SPEED-UP ON GPU = 14.48
+  THROUGHPUT ON GPU = 3.08 MB/s
+  THROUGHPUT ON CPU = 0.21 MB/s
+
+Loading 26m (26000000) integers...
+Parallel sort on GPU: 32.59 ms
+Parallel sort on CPU: 472.18 ms
+
+SPEED-UP ON GPU = 14.49
+  THROUGHPUT ON GPU = 3.04 MB/s
+  THROUGHPUT ON CPU = 0.21 MB/s
+
+Loading 13m (13000000) integers...
+Parallel sort on GPU: 16.80 ms
+Parallel sort on CPU: 242.05 ms
+
+SPEED-UP ON GPU = 14.41
+  THROUGHPUT ON GPU = 2.95 MB/s
+  THROUGHPUT ON CPU = 0.20 MB/s
+
+Loading 6m (6000000) integers...
+Parallel sort on GPU: 8.07 ms
+Parallel sort on CPU: 112.83 ms
+
+SPEED-UP ON GPU = 13.99
+  THROUGHPUT ON GPU = 2.84 MB/s
+  THROUGHPUT ON CPU = 0.20 MB/s
+
+Loading 3m (3000000) integers...
+Parallel sort on GPU: 4.33 ms
+Parallel sort on CPU: 56.61 ms
+
+SPEED-UP ON GPU = 13.09
+  THROUGHPUT ON GPU = 2.65 MB/s
+  THROUGHPUT ON CPU = 0.20 MB/s
+

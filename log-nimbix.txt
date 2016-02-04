@@ -1,0 +1,84 @@
+Nimbix Compute NAE_16C64-K80
+CPU: Intel(R) Xeon(R) CPU E5-2650 @ 2.60GHz, 16 cores, 64 GB
+GPU: Tesla K80, 2496 CUDA cores, 12 GB
+
+Loading 1474m (1474000000) integers...
+Parallel sort on GPU: 1755.72 ms
+Parallel sort on CPU: 23763.16 ms
+
+SPEED-UP ON GPU = 13.53
+  THROUGHPUT ON GPU = 3.20 MB/s
+  THROUGHPUT ON CPU = 0.24 MB/s
+
+Loading 737m (737000000) integers...
+Parallel sort on GPU: 475.19 ms
+Parallel sort on CPU: 12194.35 ms
+
+SPEED-UP ON GPU = 25.66
+  THROUGHPUT ON GPU = 5.92 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
+Loading 368m (368000000) integers...
+Parallel sort on GPU: 305.34 ms
+Parallel sort on CPU: 6141.91 ms
+
+SPEED-UP ON GPU = 20.11
+  THROUGHPUT ON GPU = 4.60 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
+Loading 184m (184000000) integers...
+Parallel sort on GPU: 128.43 ms
+Parallel sort on CPU: 3011.16 ms
+
+SPEED-UP ON GPU = 23.45
+  THROUGHPUT ON GPU = 5.47 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
+Loading 92m (92000000) integers...
+Parallel sort on GPU: 59.68 ms
+Parallel sort on CPU: 1554.71 ms
+
+SPEED-UP ON GPU = 26.05
+  THROUGHPUT ON GPU = 5.88 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
+Loading 46m (46000000) integers...
+Parallel sort on GPU: 30.58 ms
+Parallel sort on CPU: 773.48 ms
+
+SPEED-UP ON GPU = 25.29
+  THROUGHPUT ON GPU = 5.74 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
+Loading 23m (23000000) integers...
+Parallel sort on GPU: 15.42 ms
+Parallel sort on CPU: 371.36 ms
+
+SPEED-UP ON GPU = 24.09
+  THROUGHPUT ON GPU = 5.69 MB/s
+  THROUGHPUT ON CPU = 0.24 MB/s
+
+Loading 11m (11000000) integers...
+Parallel sort on GPU: 7.97 ms
+Parallel sort on CPU: 197.57 ms
+
+SPEED-UP ON GPU = 24.78
+  THROUGHPUT ON GPU = 5.26 MB/s
+  THROUGHPUT ON CPU = 0.21 MB/s
+
+Loading 5m (5000000) integers...
+Parallel sort on GPU: 4.08 ms
+Parallel sort on CPU: 97.42 ms
+
+SPEED-UP ON GPU = 23.91
+  THROUGHPUT ON GPU = 4.68 MB/s
+  THROUGHPUT ON CPU = 0.20 MB/s
+
+Loading 2m (2000000) integers...
+Parallel sort on GPU: 2.17 ms
+Parallel sort on CPU: 55.37 ms
+
+SPEED-UP ON GPU = 25.53
+  THROUGHPUT ON GPU = 3.52 MB/s
+  THROUGHPUT ON CPU = 0.14 MB/s
+
