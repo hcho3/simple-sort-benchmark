@@ -1,0 +1,90 @@
+Loading 2880m (2880000000) integers...
+segment_len = 943m (943000000)
+num_segments = 4
+Parallel sort on GPU: 13540.94 ms
+Parallel sort on CPU: 48671.34 ms
+
+SPEED-UP ON GPU = 3.59
+  THROUGHPUT ON GPU = 0.81 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
+Loading 2880m (2880000000) integers...
+segment_len = 471m (471000000)
+num_segments = 7
+Parallel sort on GPU: 9936.77 ms
+Parallel sort on CPU: 47233.21 ms
+
+SPEED-UP ON GPU = 4.75
+  THROUGHPUT ON GPU = 1.11 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
+Loading 2880m (2880000000) integers...
+segment_len = 235m (235000000)
+num_segments = 13
+Parallel sort on GPU: 13753.52 ms
+Parallel sort on CPU: 47524.33 ms
+
+SPEED-UP ON GPU = 3.46
+  THROUGHPUT ON GPU = 0.80 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
+Loading 2880m (2880000000) integers...
+segment_len = 117m (117000000)
+num_segments = 25
+Parallel sort on GPU: 9608.31 ms
+Parallel sort on CPU: 53818.08 ms
+
+SPEED-UP ON GPU = 5.60
+  THROUGHPUT ON GPU = 1.14 MB/s
+  THROUGHPUT ON CPU = 0.20 MB/s
+
+Loading 2880m (2880000000) integers...
+segment_len = 58m (58000000)
+num_segments = 50
+Parallel sort on GPU: 14220.17 ms
+Parallel sort on CPU: 47317.37 ms
+
+SPEED-UP ON GPU = 3.33
+  THROUGHPUT ON GPU = 0.77 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
+Loading 2880m (2880000000) integers...
+segment_len = 29m (29000000)
+num_segments = 100
+Parallel sort on GPU: 14273.14 ms
+Parallel sort on CPU: 46992.82 ms
+
+SPEED-UP ON GPU = 3.29
+  THROUGHPUT ON GPU = 0.77 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
+Loading 2880m (2880000000) integers...
+segment_len = 14m (14000000)
+num_segments = 206
+Parallel sort on GPU: 10421.99 ms
+Parallel sort on CPU: 47004.92 ms
+
+SPEED-UP ON GPU = 4.51
+  THROUGHPUT ON GPU = 1.05 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
+Loading 2880m (2880000000) integers...
+segment_len = 7m (7000000)
+num_segments = 412
+Parallel sort on GPU: 10621.12 ms
+Parallel sort on CPU: 47134.89 ms
+
+SPEED-UP ON GPU = 4.44
+  THROUGHPUT ON GPU = 1.03 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
+Loading 2880m (2880000000) integers...
+segment_len = 3m (3000000)
+num_segments = 960
+Parallel sort on GPU: 13633.83 ms
+Parallel sort on CPU: 47111.00 ms
+
+SPEED-UP ON GPU = 3.46
+  THROUGHPUT ON GPU = 0.81 MB/s
+  THROUGHPUT ON CPU = 0.23 MB/s
+
