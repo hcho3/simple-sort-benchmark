@@ -17,7 +17,7 @@ do
     fi
 done
 
-for i in {1..5}
+for i in {1..10}
 do
     (( nelem = nelem * 90 / 100 ))
     echo "./gendata ${nelem}m"
@@ -35,20 +35,21 @@ echo "./gendata 'dump.bin' ${nelem}m"
 
 echo ""
 echo "----2. Running sorting benchmark...---"
-while (( nelem > 1))
+segsize=${nelem}
+while (( segsize > 1))
 do
-    echo "./sort 'dump.bin' ${nelem}m"
-    ./sort 'dump.bin' ${nelem}m 2>/dev/null | sed 's/^/    /' \
+    echo "./sort 'dump.bin' ${nelem}m ${segsize}m"
+    ./sort 'dump.bin' ${nelem}m ${segsize}m 2>/dev/null | sed 's/^/    /' \
         | tee -a log.txt
 
     if [ ${PIPESTATUS[0]} -eq 0 ]
     then
-        (( nelem /= 2 ))
+        (( segsize /= 2 ))
         echo "" >> log.txt
     else
         echo -n "    --> Insufficient memory for sorting. "
         echo "Reducing data size by 20%..."
-        (( nelem = nelem * 80 / 100 ))
+        (( segsize = segsize * 80 / 100 ))
         > log.txt
     fi
 done

@@ -2,7 +2,7 @@ all: gendata get_arch_flags sort
 
 CFLAGS=-O3 -std=c++11 -Xcompiler -fopenmp -Xcompiler -Wall
  
-sort: sort.cu get_arch_flags
+sort: sort.cu Buffer.h get_arch_flags
 	nvcc $(CFLAGS) $(shell ./get_arch_flags) -o $@ $< -lgomp
 
 gendata: gendata.cu get_arch_flags
